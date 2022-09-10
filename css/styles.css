@@ -1,3 +1,57 @@
+/*Global*/
 .hidden {
   display: none;
+}
+
+body {
+  background-color: #D06224;
+  font-weight: 400;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: grid, column;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  font-size: 84px;
+}
+
+p.headerP {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/*Form*/
+.divForm {
+  background-color: #ae421e;
+  margin: 15px;
+  padding: 40px;
+  border: 2px;
+  border-radius: 6px;
+}
+
+#formInput {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  background-color: #E9C891;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  box-shadow: 0 0 6px;
+}
+
+/*Response*/
+
+#response {
+  text-align: center;
+  background-color: #8A8635;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 6px;
 }
