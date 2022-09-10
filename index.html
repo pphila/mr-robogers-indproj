@@ -13,7 +13,7 @@
     <h1>Hello Neighbor</h1>
     <p>You must've just moved here, welcome to the neighborhood.</p>
     <div class="divForm">
-      <form id="roboForm">
+      <form>
         <div id="formInput">
           <label for="user">What can I call yah?</label>
           <input id="user" class="form-control" type="text">
@@ -23,9 +23,9 @@
         <button type="submit" class="btn">Enter!</button>
       </form>
     </div>
-    <div class="response">
+    <div id="response" class="hidden">
       <h2>Welcome to the neighborhood</h2>
-      <p>Isn't it nice here <span class="user"></span>. Here is my song <span class="numbers"></span></p>
+      <p>Isn't it nice here <span id="user"></span>. Here is my song <span id="numbers"></span></p>
     </div>
   </div>
   

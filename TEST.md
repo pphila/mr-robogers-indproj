@@ -31,3 +31,7 @@ Expected Output: "Won't you be my neighbor?"
 Test: "It will return a string of responses according to the number entered."
 Code: const roboNum = "5";
 Expected Output: "0, Beep!, Boop!, Won't you be my neighbor?, 4, 5"
+
+Test: "It will return error message when a letter is entered instead of a number."
+Code: const roboNum = "a";
+Expected Output: "Sorry neighbor but letters do not compute..."
