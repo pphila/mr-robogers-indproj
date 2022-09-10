@@ -1,6 +1,9 @@
 // Business Logic
 
 function roboNum(str) {
+  if (empty(str)) {
+    return "Sorry neighbor, letters don't compute...";
+  }
   let numArr = [];
   for (i = 0; i <= str; i++) {
     if ([i].toString().includes(3)) {
@@ -9,6 +12,8 @@ function roboNum(str) {
       numArr.push("Boop!");
     } else if ([i].toString().includes(1)) {
       numArr.push("Beep!")
+    } else {
+      numArr.push(i);
     }
   }
   return numArr;
@@ -24,10 +29,16 @@ window.onload = function() {
     const numInput = document.getElementById("number").value;
     // Input display
     document.querySelector("span#user").innerText = userName;
-    document.querySelector("span#numbers").innerText = roboNum(numInput);
+    document.querySelector("span#numbers").innerText = roboNum(numInput).join(" ");
     // display response div
     document.querySelector("div#response").removeAttribute("class");
 
     event.preventDefault();
   }
+}
+
+//Utility Logic
+
+function empty(emptyString) {
+  return (emptyString.trim().length === 0);
 }

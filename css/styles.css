@@ -4,10 +4,16 @@
 }
 
 body {
+  align-items: center;
   background-color: #D06224;
   font-weight: 400;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   display: grid, column;
+}
+
+.container img {
+  margin-left: 100px;
+  margin-right: auto;
 }
 
 h1 {
