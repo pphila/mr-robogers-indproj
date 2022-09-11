@@ -18,7 +18,7 @@ Expected Output: [2]
 
 Test: "It will return 'Boop!' when it recognizes the number 2."
 Code: const roboNum = "2";
-Expected Output: "Boop!"
+Expected Output: "Beep! Boop!"
 
 Test: "It will iterate through a string to recognize the number 3."
 Code: const roboNum = "3";
@@ -26,7 +26,7 @@ Expected Output: [3]
 
 Test: "It will return 'Won't you be my neighbor?' when it recognizes the number 3."
 Code: const roboNum = "3"
-Expected Output: "Won't you be my neighbor?"
+Expected Output: |"Beep! Boop! Won't you be my neighbor?"
 
 Test: "It will return a string of responses according to the number entered."
 Code: const roboNum = "5";

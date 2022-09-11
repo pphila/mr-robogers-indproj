@@ -15,6 +15,7 @@ body {
   margin-left: 100px;
   margin-right: auto;
   border-radius: 6px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 h1 {
@@ -38,10 +39,15 @@ p.headerP {
   font-family: 'Titan one', cursive;
   background-color: #564A4A;
   color: #F55C47;
-  margin: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 20px;
   padding: 40px;
   border: 2px;
   border-radius: 6px;
+}
+
+label {
+  text-shadow: 2px, 2px, 4px, black;
 }
 
 #formInput {
